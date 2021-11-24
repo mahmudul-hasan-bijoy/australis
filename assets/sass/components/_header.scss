@@ -1,0 +1,30 @@
+.header {
+	padding-top: 3rem;
+	padding-right: 3rem;
+	@include respond(px-440) {
+		padding-right: 2rem;
+	}
+	&__social {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		gap: 1rem;
+		&-icon {
+			background: var(--paste);
+			width: 3rem;
+			height: 3rem;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			i {
+				color: var(--black);
+				transition: .3s all;
+				&:hover {
+					color: var(--white);
+					transition: .3s all;
+				}
+			}
+		}
+	}
+}
