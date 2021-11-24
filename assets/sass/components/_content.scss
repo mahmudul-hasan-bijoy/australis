@@ -96,6 +96,7 @@
 		margin: 0 auto;
 		padding: 0 3rem;
 		@include respond (phone) {
+			width: 40rem;
 			padding: 0 2rem;
 		}
 		&-headline {
