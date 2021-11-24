@@ -1,4 +1,4 @@
-<img src="assets/img/screenshot.png" title="Australis">
+<img src="assets/img/screenshoot.jpg" title="Australis">
 
 # <a href="https://mahmudul-hasan-bijoy.github.io/australis/" target="_blank">Client Website</a><br>
 
