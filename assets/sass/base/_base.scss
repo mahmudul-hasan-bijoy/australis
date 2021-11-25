@@ -67,7 +67,6 @@ body {
   background-size: cover;
   height: 100vh;
   font-size: 1.6rem;
-
   @include respond(big-desktop) {
     font-size: 1.8rem;
   }
