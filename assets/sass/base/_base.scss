@@ -76,11 +76,9 @@ body {
   }
   @include respond(tab-port) {
     font-size: 1.4rem;
-    height: 100%;
   }
   @include respond(phone) {
     font-size: 1.2rem;
-    height: 100vh;
   }
   box-sizing: border-box;
   line-height: 1.5;
@@ -89,13 +87,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
 a,
 a:hover {
   transition: .3s all;
   text-decoration: none;
 }
-
 
 ::selection {
   background-color: var(--paste);
