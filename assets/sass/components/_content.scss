@@ -96,11 +96,16 @@
 		margin: 0 auto;
 		padding: 0 3rem;
 		@include respond (phone) {
-			width: 40rem;
-			padding: 0 2rem;
+			background-size: cover;
+			width: 28rem;
+			height: 7rem;
+			padding: 1rem;
 		}
 		&-headline {
 			padding: 1rem 5rem;
+			@include respond (phone) {
+				padding: 2rem;
+			}
 			&:hover h2 span {
 				color: var(--white);
 				transition: .3s all;
@@ -111,6 +116,9 @@
 				font-weight: 400;
 				text-align: center;
 				color: var(--white);
+				@include respond(phone) {
+					font-size: 2.6rem;
+				}
 				span {
 					color: var(--paste);
 					font-weight: 500;
@@ -126,6 +134,7 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			gap: 2rem; 
 		}
 		&-left {
 			display: flex;
@@ -137,12 +146,20 @@
 			background-repeat: no-repeat;
 			background-position: left;
 			background-size: contain;
+			@include respond (phone) {
+				background-size: cover;
+				width: 28rem;
+				height: 7rem;
+			}
 			&:hover h2 span {
 				color: var(--paste);
 				transition: .3s all;
 			}
 			&-link {
 				padding: 2rem 5rem;
+				@include respond (phone) {
+					padding: 2rem;
+				}
 				h2 {
 					color: var(--white);
 					font-size: 2.6rem;
@@ -167,12 +184,20 @@
 			background-size: contain;
 			width: 35rem;
 			height: 10rem;
+			@include respond (phone) {
+				background-size: cover;
+				width: 28rem;
+				height: 7rem;
+			}
 			&:hover h2 span {
 				color: var(--paste);
 				transition: .3s all;
 			}
 			&-link {
 				padding: 3rem 5rem;
+				@include respond (phone) {
+					padding: 2rem;
+				}
 				h2 {
 					color: var(--white);
 					font-size: 2.6rem;
