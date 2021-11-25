@@ -9,6 +9,7 @@
 		flex-direction: column;
 		gap: 3rem;
 		@include respond (phone) {
+			padding-top: 5rem;
 			padding-bottom: 2rem;
 		}
 		&-main {

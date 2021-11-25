@@ -60,7 +60,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   @include respond (phone) {
-    justify-content: flex-end;
+    justify-content: start;
   }
   position: relative;
   font-family: 'Roboto', sans-serif;
