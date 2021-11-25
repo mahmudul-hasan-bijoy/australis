@@ -10,6 +10,9 @@
 		display: flex;
 		flex-direction: column;
 		gap: 3rem;
+		@include respond (phone) {
+			padding-bottom: 3rem;
+		}
 		&-main {
 			display: flex;
 			justify-content: center;
