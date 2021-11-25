@@ -56,6 +56,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   font-family: 'Roboto', sans-serif;
   background-image: url(../img/background.jpg);
@@ -83,12 +86,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      //padding: 0;
-  }
+  text-rendering: optimizeLegibility;
 }
+
 
 a,
 a:hover {
