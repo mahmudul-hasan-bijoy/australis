@@ -59,6 +59,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @include respond (phone) {
+    justify-content: flex-start;
+  }
   position: relative;
   font-family: 'Roboto', sans-serif;
   background-image: url(../img/background.jpg);
