@@ -1,6 +1,6 @@
 <img src="assets/img/screenshoot.jpg" title="Australis">
 
-# <a href="https://mahmudul-hasan-bijoy.github.io/australis/" target="_blank">Client Website</a><br>
+# <a href="https://mahmudul-hasan-bijoy.github.io/australis/" target="_blank">Australis</a><br>
 
 - Onepage Website
 - HTML5
@@ -26,6 +26,12 @@
 - Install SASS: Type `gem install sass` to install Ruby SASS on your machine.
 - Check SASS version: Now again type `sass -v` to check the installed SASS version.
 - Initialize SASS on this project: type `sass --watch main.scss:../css/style.css --style compressed` and you are on your way to  run Ruby SASS for this project.
+
+## SCOUT-SASS APP
+- `Download app:` https://scout-app.io/
+- Install the app and run it
+- Select the project, Choose SASS destination folder and CSS folder
+- Click Play and Go
   
 ## License
 

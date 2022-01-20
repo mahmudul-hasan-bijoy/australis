@@ -1,11 +1,9 @@
 .content {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	padding-top: 2rem;
+	justify-content: space-between;
 	gap: 2rem;
 	padding-bottom: 2rem;
-	margin-top: -5rem;
 	&__heading {
 		display: flex;
 		flex-direction: column;
