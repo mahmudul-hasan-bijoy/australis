@@ -1,7 +1,8 @@
 .content {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
+	padding-top: 2rem;
 	gap: 2rem;
 	padding-bottom: 2rem;
 	&__heading {
